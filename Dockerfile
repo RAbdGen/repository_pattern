@@ -4,4 +4,4 @@ COPY ./Application /Application
 
 WORKDIR /Application
 
-RUN node main.mjs
+CMD node main.mjs
